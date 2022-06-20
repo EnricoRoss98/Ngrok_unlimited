@@ -4,8 +4,8 @@ However in this repo, insthead of using PHP, i'm using CloudFunctions on GCP and
 
 The two Python files in the directory are: one for open HTTPS connection with Ngrok and the other for a SSH connection. This programs are made for use on Linux (tested on Ubuntu 22.04), and. af course Google Cloud Platform.
 
-- A call of the url of the read_data_http function will redirect on the HTTPS server page
-- A call of the url of the read_data_ssh function will print on the page the command to open the ssh connection (for a Mac Terminal)
+- A call of the read_data_http URL will automaticly redirect on the server page shared with Ngrok
+- A call of the read_data_ssh URL will print on the page the shell command to open the SSH connection (for a Mac Terminal)
 
 ### SETUP AND USE:
 #### 1. Upload the functions on GCP:
